@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CAReplicatorLayer *repLayer =(CAReplicatorLayer *)self.view.layer;
+    //要复制几份
+    repLayer.instanceCount = 2;
+    
+    //绕着点旋转180度
+    repLayer.instanceTransform = CATransform3DMakeRotation(M_PI, 1, 0, 0);
+    
+    //倒影
+    repLayer.instanceRedOffset -= 0.1;
+    repLayer.instanceGreenOffset -= 0.1;
+    repLayer.instanceBlueOffset -= 0.1;
+    repLayer.instanceAlphaOffset -= 0.1;
+    
 }
 
 - (void)didReceiveMemoryWarning {

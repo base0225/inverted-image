@@ -15,6 +15,7 @@
 		4B68C79E1BBC261D00B4A5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B68C79C1BBC261D00B4A5CD /* LaunchScreen.storyboard */; };
 		4B68C7A91BBC261D00B4A5CD /* _929ZJ__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B68C7A81BBC261D00B4A5CD /* _929ZJ__Tests.m */; };
 		4B68C7B41BBC261D00B4A5CD /* _929ZJ__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B68C7B31BBC261D00B4A5CD /* _929ZJ__UITests.m */; };
+		4B68C7C31BBC26BC00B4A5CD /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B68C7C21BBC26BC00B4A5CD /* VCView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4B68C7AF1BBC261D00B4A5CD /* 0929ZJ倒影UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0929ZJ倒影UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B68C7B31BBC261D00B4A5CD /* _929ZJ__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _929ZJ__UITests.m; sourceTree = "<group>"; };
 		4B68C7B51BBC261D00B4A5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B68C7C11BBC26BC00B4A5CD /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
+		4B68C7C21BBC26BC00B4A5CD /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				4B68C7941BBC261D00B4A5CD /* ViewController.h */,
 				4B68C7951BBC261D00B4A5CD /* ViewController.m */,
 				4B68C7971BBC261D00B4A5CD /* Main.storyboard */,
+				4B68C7C11BBC26BC00B4A5CD /* VCView.h */,
+				4B68C7C21BBC26BC00B4A5CD /* VCView.m */,
 				4B68C79A1BBC261D00B4A5CD /* Assets.xcassets */,
 				4B68C79C1BBC261D00B4A5CD /* LaunchScreen.storyboard */,
 				4B68C79F1BBC261D00B4A5CD /* Info.plist */,
@@ -276,6 +281,7 @@
 				4B68C7961BBC261D00B4A5CD /* ViewController.m in Sources */,
 				4B68C7931BBC261D00B4A5CD /* AppDelegate.m in Sources */,
 				4B68C7901BBC261D00B4A5CD /* main.m in Sources */,
+				4B68C7C31BBC26BC00B4A5CD /* VCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
